@@ -1,0 +1,14 @@
+[build-system]
+build-backend = "poetry.masonry.api"
+requires = ["poetry>=0.12"]
+
+[tool]
+[tool.poetry]
+authors = ["Raul Bruno Santos Lima <you@example.com>"]
+description = ""
+name = "repl_python3_perceptron-multi-layer"
+version = "0.1.0"
+[tool.poetry.dependencies]
+pandas = "^1.1.4"
+python = "^3.8"
+[tool.poetry.dev-dependencies]
